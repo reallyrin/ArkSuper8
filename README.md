@@ -27,3 +27,11 @@ https://www.microcenter.com/product/670327/raspberry-pi-hq-camera-for-raspberry-
 
 Raspberry Pi Camera Lens:
 Raspberry Pi 16mm Telephoto Lens for HQ Camera
+
+How to use:
+
+1. Plug Pi in and turn on
+2. Press record to start filming
+3. Choose FPS rate from 8, 10, or 24.
+4. Press print.
+5. Edit as you wish!
