@@ -1,0 +1,17 @@
+1. First purchase all necessary items listed in github repo.
+2. Write the Raspberry Pi Os (Legacy, 32-bit) debian bullseye image into your sd card for the raspberry pi and make sure for the 3.5 LCD screen to follow instructions from https://circuitdigest.com/microcontroller-projects/interfacing-3.5-inch-touchscreen-tft-lcd-with-raspberry-pi
+3. To connect to the printer, use the usb cable it comes with. To connect to power use a 12v dc power cable supply and the power cable the printer came with and connect both by a 12v dv power connector. 
+4. To make sure you have all the proper modules and what not, go into the terminal and type these commands:
+    - sudo apt update
+    - sudo apt upgrade
+    - sudo apt install python3-picamera
+    - sudo apt install python3-pil python3-pil.imagetk
+    - sudo apt-get install python3-pip
+    - pip install opencv-python-headless opencv-python pillow
+4. Test the printer works, in the Terminal, go through these steps:
+    - ls -l /dev/usb/lp0
+    - sudo chmod 777 /dev/usb/lp0
+    - eche -e "This is a test.\\n\\n\\n" > /dev/usb/lp0
+5. In Geany, copy the code from recordandprint.py in the github repository.
+6. Back in the terminal, write python3 recordandprint.py and the interface should pop up shortly.
+7. Start recording!
