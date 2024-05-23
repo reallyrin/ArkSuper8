@@ -3,7 +3,7 @@
   [ark8.mov.zip](https://github.com/reallyrin/ArkSuper8/files/15422686/ark8.mov.zip)
 
 
-Ark super 8 camera is a combination of the super 8 film camera and mixed media videos. Using a raspberry pi 4b and 16mm raspberry pi camera lens with a thermal printer, you can get a similar combined effect only much quicker than the film developing process.
+My idea for my raspberry pi camera project was to combine the aesthetic of old super 8 films and create a more modern and easier way of producing these films. Instead of color film that would need to be developed, I want to use thermal paper and have a nice black and white grain look to the videos. Once shot on the raspberry pi, the option to print would be available by three different fps rate that you can choose from. After done recording you have a long sheet of frames from the video that can be edited by hand and scanned to your computer either with a scanner or even by taking photos of each frame.
 
 Links for what I used:
 
